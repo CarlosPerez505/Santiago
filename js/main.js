@@ -1,8 +1,8 @@
 var i = 0;
-var txt = 'Santiago';
-var speed = 50;
+var txt = "Hello I'm Santiago";
+var speed = 500;
 
-function typeWriter() {
+window.onload = function typeWriter() {
     if (i < txt.length) {
         document.getElementById("sant").innerHTML += txt.charAt(i);
         i++;

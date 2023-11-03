@@ -1,8 +1,9 @@
 
 h1 {
-    font-size: 6em;
+    font-size: 4em;
     color: yellow;
 }
+
 
 
 /* showcase*/
@@ -12,6 +13,8 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 75vh;
+
 }
 
 
@@ -22,5 +25,34 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
+
 
 }
+
+.hire {
+    background-color: #d8d5dc;
+    height: 100vh;
+}
+
+.lead {
+    font-weight: bold;
+}
+
+.space {
+    background-image: url("/img/screens.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.about {
+   /* background-image: url("/img/paladin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    min-height: 100vh;
+    font-size: 2rem;
+}
+
