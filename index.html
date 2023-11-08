@@ -53,16 +53,23 @@
 
 <section class="about">
     <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <p>About</p>
-                <p>I am currently in middle and learning the basics of computer programming. I am studying python turtle
-                and html. when i graduate i want to join the Army and travel the world.</p>
+        <div class="row align-items-center">
+            <div class="col-md">
+                <img class="img-fluid" src="img/tank.png">
+
             </div>
+            <div class="col-md">
+                <p>I am currently in middle school and learning the basics of computer programming. I am studying python turtle
+                    and html. when i graduate i want to join the Army and travel the world.</p>
+
+            </div>
+
+
 
         </div>
 
     </div>
+
 </section>
 
 
@@ -70,7 +77,7 @@
 
 <!-- Boxes -->
 
-<section class="boxes p-5">
+<section class="boxes p-5 d-flex align-items-center justify-content-center">
     <div class="container">
         <div class="row text-center">
             <div class="col-md mb-3">
@@ -129,11 +136,68 @@
                 <img class="w-50" src="img/hireMe.png" alt="image says hire me in magic marker">
             </div>
             <div class="col-md ">
-                <p class="lead">
+                <p class="lead fs-1">
                     I might only be 12, but I know what it takes to make a dollar in today's world. Being lazy won't get
                     you anywhere. If you got some chores that need getting done I'm your man. Need yard work done or your
                     car cleaned hit me up. For a reasonable fee you can consider that work done!
                 </p>
+
+            </div>
+        </div>
+    </div>
+        <div class="container d-flex align-items-center justify-content-end">
+
+                <img class="work img-fluid" src="img/work.png" alt="android doing yard work">
+
+        </div>
+
+
+
+</section>
+
+
+<section id="contact" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="neumorphic-box">
+                    <h2>Contact Us</h2>
+                    <p>
+                        Have a question or want to get in touch with us? Feel free to reach out using the form below or contact us directly.
+                    </p>
+
+                    <!-- Contact Form -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="neumorphic-box">
+                    <h2>Contact Information</h2>
+                    <p>
+                        You can also reach us through the following contact details:
+                    </p>
+                    <address>
+                        <strong>Your Company Name</strong><br>
+                        123 Main Street<br>
+                        City, State ZIP<br>
+                        <a href="tel:+1234567890">Phone: (123) 456-7890</a><br>
+                        <a href="mailto:info@example.com">Email: info@example.com</a>
+                    </address>
+                </div>
             </div>
         </div>
     </div>
@@ -141,7 +205,7 @@
 
 
 
-<footer class="bg-dark text-light">
+<footer class="neumorphic-footer">
     <div class="container">
         <div class="row">
             <div class="col-md-4">

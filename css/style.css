@@ -1,4 +1,6 @@
-
+body {
+    background-color: #f0f0f0;
+}
 h1 {
     font-size: 4em;
     color: yellow;
@@ -13,7 +15,7 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 75vh;
+    min-height: 100vh;
 
 }
 
@@ -25,14 +27,14 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100%;
+    min-height: 100vh;
 
 
 }
 
 .hire {
     background-color: #d8d5dc;
-    height: 100vh;
+
 }
 
 .lead {
@@ -48,11 +50,24 @@ h1 {
 }
 
 .about {
-   /* background-image: url("/img/paladin.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
-    min-height: 100vh;
+
+
     font-size: 2rem;
+}
+
+.neumorphic-box {
+    background: #e0e0e0;
+    box-shadow: 4px 4px 10px #bebebe, -4px -4px 10px #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.neumorphic-footer {
+    background: #e0e0e0;
+    box-shadow: 4px 4px 10px #bebebe, -4px -4px 10px #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
